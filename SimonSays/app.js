@@ -40,9 +40,24 @@ function levelUp(){
     let randBtn = document.querySelector(`.${randColor}`);
 
     gameseq.push(randColor);
-    btnFlash(randBtn);
+    console.log(gameseq);
+    // btnFlash(randBtn);
+    gameFlash(randBtn);
 }
 
+function gameFlash(){
+    let i=0;
+    function flashNext(){
+        if(i<gameseq.length){
+            let color=gameseq[i];
+            let btn=document.querySelector(`.${color}`);
+            btnFlash(btn);
+            i++;
+            setTimeout(flashNext, 600);
+        }
+    }
+    flashNext();
+}
 function checkAns(idx) {
     if (userseq[idx] === gameseq[idx]) {
 
