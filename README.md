@@ -1,4 +1,4 @@
-# 🎮 SimonSays Game
+# 🎮 Simon Says Game
 
 A fun and interactive memory game inspired by the classic **Simon Says** challenge. The game tests the player's memory skills by generating a sequence of colors or patterns that the player must repeat correctly. With each successful round, the sequence becomes longer and more challenging.
 
