@@ -14,8 +14,8 @@ The Simon Says Game is built to provide an engaging user experience while demons
 
 - 🎯 Random sequence generation  
 - 🧠 Increasing difficulty with each level  
-- 🔊 Interactive button animations and sounds  
-- ❌ Game-over detection with restart option  
+- 🔊 Interactive button animations 
+- ❌ Game-over detection 
 - 📱 Responsive design for all devices  
 
 ---
